@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/docker/pulls/hdavid0510/novnc?style=flat-square)](https://hub.docker.com/r/hdavid0510/novnc) [![](https://img.shields.io/docker/cloud/build/hdavid0510/novnc?style=flat-square)]() [![](https://img.shields.io/github/issues/hdavid0510/docker-novnc?style=flat-square)](https://github.com/hdavid0510/docker-novnc/issues)    
 Standalone, lightweight noVNC client on alpine linux image.  
-Docker script adapted from https://github.com/ondh/dockerfiles/tree/master/novnc.
+Docker script adapted from [here](https://github.com/ondh/dockerfiles/tree/master/novnc-proxy).
 
 
 ---
