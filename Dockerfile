@@ -2,6 +2,8 @@ FROM alpine:latest
 LABEL maintiner="gdavid0510@gmail.com"
 
 ENV SERVER "localhost:5900"
+ENV CRT ""
+ENV KEY ""
 WORKDIR /
 
 COPY start.sh /start.sh

@@ -19,3 +19,11 @@ Build from `master` branch.
 ### `SERVER`
 * IP address and port of VNC server host.
 * **DEFAULT** `localhost:5900`
+
+### `KEY`
+* Key file for TLS encryption
+* **DEFAULT** `empty`
+
+### `CRT`
+* Cert file for TLS encryption
+* **DEFAULT** `empty`
