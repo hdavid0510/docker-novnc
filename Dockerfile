@@ -19,4 +19,4 @@ RUN apk add --no-cache python3 bash git procps\
 
 EXPOSE 6080
 
-CMD ["/bin/sh","/start.sh"]
+ENTRYPOINT ["/bin/sh", "/start.sh"]
