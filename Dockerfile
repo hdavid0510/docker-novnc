@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM --platform=$TARGETPLATFORM alpine:latest
 LABEL maintiner="gdavid0510@gmail.com"
 
 ENV SERVER "localhost:5900"
