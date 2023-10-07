@@ -3,7 +3,7 @@ pipeline{
 
 	environment {
 		IMAGE_NAME="hdavid0510/novnc"
-		IMAGE_TAG="dev"
+		IMAGE_TAG="latest"
 		REGISTRY_CREDENTIALS=credentials('dockerhub-credential')
 	}
 
